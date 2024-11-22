@@ -1,0 +1,26 @@
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 4rem;
+    margin-bottom: 3rem;
+}
+
+h4 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+h5 {
+    color: rgb(182, 184, 186);
+}
+
+h4 + p {
+    color: rgb(182, 184, 186);
+
+}
+
+.footer-flex > div {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}

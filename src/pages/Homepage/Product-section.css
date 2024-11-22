@@ -1,0 +1,25 @@
+.main {
+    width: 13rem;
+    background-color: #f5f1f1;
+    /* height: 5rem; */
+}
+
+.main div {
+    padding-block: 1rem;
+    padding-left: 0.6rem;
+    /* margin-bottom: 2rem; */
+}
+
+h2 {
+    font-weight: 700;
+}
+
+h2 + p, .sideSpan {
+    color: #979292;
+    font-size: 0.6rem;
+}
+
+.h3 {
+    font-weight: 600;
+    grid-template-columns: 4, 100px;
+}
