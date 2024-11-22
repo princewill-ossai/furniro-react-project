@@ -1,9 +1,10 @@
 import React from 'react'
 import logo from '../../images/logo.png'
+import { Link } from 'react-router-dom'
 
 const SignUp = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+    <div className="flex flex-col py-7 items-center justify-center min-h-screen bg-gray-100">
   <img src={logo} alt="Logo" className="mb-6 w-50 h-20" />
   <form className="w-full max-w-sm bg-white rounded-lg shadow-md p-6">
     <h1 className="text-2xl font-semibold text-gray-800 mb-4 text-center">
@@ -72,6 +73,7 @@ const SignUp = () => {
       </button>
     </div>
   </form>
+  <p>Already have an account?. <Link to={"/login"}>Login</Link></p>
 </div>
 
   )

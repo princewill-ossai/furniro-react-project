@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../../images/logo.png";
 import contactIcon from "../../images/icons/contact.png";
 import searchIcon from "../../images/icons/search.png";
@@ -26,10 +27,12 @@ const FurniroHome = () => {
           <img src={logo} alt="" width={250} />
         </div>
         <div className="links">
-          <a href="">Home</a>
-          <a href="">Shop</a>
-          <a href="">About</a>
-          <a href="">Contact</a>
+          <Link to={""}>Home</Link>
+          <Link to={""}>Shop</Link>
+          <Link to={""}>About</Link>
+          <Link to={""}>Contact</Link>
+          <Link to={"signUp"}>SignUp</Link>
+          
         </div>
         <div id="icon-div">
           <img src={contactIcon} alt="" />
